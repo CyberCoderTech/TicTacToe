@@ -1,0 +1,48 @@
+# =========================
+# Build & Output (Kluczowe dla CMake)
+# =========================
+build/
+_build/
+out/
+bin/
+x64/
+x86/
+
+# =========================
+# IDE specific (VS Code & Visual Studio)
+# =========================
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+
+# =========================
+# CMake internals (jeśli nie budujesz w folderze build/)
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+/_deps/
+
+# =========================
+# Compiled binaries / Artifacts
+# =========================
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# =========================
+# OS / System files
+# =========================
+.DS_Store
+Thumbs.db
