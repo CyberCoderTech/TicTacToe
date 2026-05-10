@@ -1,6 +1,5 @@
 #include "mvc/AIController.hpp"
 
-#include<iostream>
 
 AIController::AIController(BoardView& argView, BoardModel& argModel):IBoardController(argView,argModel)
 {
@@ -58,7 +57,7 @@ bool AIController::isBoardFull(std::span<const CellState> board) const
 
 int AIController::evaluate(std::span<const CellState> board)
 {
-	// Sprawdzenie wierszy
+	// Checking the lines
 	for (int row = 0; row < 3; row++) {
 		if (board[row * 3 + 0] == board[row * 3 + 1] &&
 			board[row * 3 + 1] == board[row * 3 + 2]) {
@@ -67,7 +66,7 @@ int AIController::evaluate(std::span<const CellState> board)
 		}
 	}
 
-	// Sprawdzenie kolumn
+	// Checking the Column
 	for (int col = 0; col < 3; col++) {
 		if (board[0 * 3 + col] == board[1 * 3 + col] &&
 			board[1 * 3 + col] == board[2 * 3 + col]) {
@@ -76,7 +75,7 @@ int AIController::evaluate(std::span<const CellState> board)
 		}
 	}
 
-	// Sprawdzenie diagonali
+	// Cross check
 	if (board[0 * 3 + 0] == board[1 * 3 + 1] &&
 		board[1 * 3 + 1] == board[2 * 3 + 2]) {
 		if (board[0 * 3 + 0] == CellState::X) return +10;
