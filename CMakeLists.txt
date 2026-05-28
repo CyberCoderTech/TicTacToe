@@ -26,3 +26,9 @@ add_executable(${PROJECT_NAME} ${SOURCE})
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 target_link_libraries(${PROJECT_NAME} sfml-window sfml-graphics sfml-system)
+
+configure_file(
+    ${CMAKE_SOURCE_DIR}/assets/fonts/Roboto-Black.ttf
+    ${CMAKE_BINARY_DIR}/Roboto-Black.ttf
+    COPYONLY
+)
