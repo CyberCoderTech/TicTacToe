@@ -9,7 +9,7 @@ Prosta gra kółko i krzyżyk (Tic-Tac-Toe) napisana w języku C++ z wykorzystan
 * Proste menu
 * Tryb gry: User vs User (lokalnie)
 * Tryb gry: User vs AI (algorytm Minimax)
-* Automatyczne kopiowanie czcionek i assetów podczas buildowania projektu
+* Automatyczne kopiowanie czcionek podczas budowania projektu
 * Wsparcie dla menedżera pakietów Conan
 
 ### 🛠️ Technologie
@@ -38,7 +38,7 @@ cmake --build --preset <preset-name>
 
 4. Uruchom plik wykonywalny
 
-📁 Czcionki i assety są kopiowane automatycznie podczas buildowania projektu.
+📁 Czcionki są kopiowane automatycznie podczas budowania projektu.
 
 #### Opcja 2 — Ręczna instalacja SFML
 
@@ -46,7 +46,7 @@ cmake --build --preset <preset-name>
 2. Skompiluj projekt (np. g++, MSVC)
 3. Uruchom plik wykonywalny
 
-📁 Czcionki i assety są kopiowane automatycznie podczas buildowania projektu.
+📁 Czcionki są kopiowane automatycznie podczas budowania projektu.
 
 ### 📌 Cel projektu
 
@@ -63,7 +63,7 @@ A simple Tic-Tac-Toe game written in C++ using the SFML 2.6.2 library. The proje
 * Simple menu
 * Game mode: User vs User (local)
 * Game mode: User vs AI (Minimax algorithm)
-* Automatic copying of fonts and assets during build
+* Automatic copying of fonts during build
 * Conan package manager support
 
 ### 🛠️ Technologies
@@ -92,7 +92,7 @@ cmake --build --preset <preset-name>
 
 4. Run the executable
 
-📁 Fonts and assets are copied automatically during the build process.
+📁 Fonts are copied automatically during the build process.
 
 #### Option 2 — Manual SFML installation
 
@@ -100,7 +100,7 @@ cmake --build --preset <preset-name>
 2. Compile the project (e.g. g++, MSVC)
 3. Run the executable
 
-📁 Fonts and assets are copied automatically during the build process.
+📁 Fonts are copied automatically during the build process.
 
 ### 📌 Purpose
 
