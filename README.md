@@ -1,4 +1,4 @@
-# 🎮 TicTacToc (C++ / SFML 2.6.2)
+# 🎮 TicTacToe (C++ / SFML 2.6.2)
 
 ## 🇵🇱 Opis
 
