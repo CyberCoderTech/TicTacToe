@@ -32,3 +32,22 @@ configure_file(
     ${CMAKE_BINARY_DIR}/Roboto-Black.ttf
     COPYONLY
 )
+
+# --- SEKCJA TESTÓW JEDNOSTKOWYCH ---
+enable_testing()
+find_package(Catch2 REQUIRED)
+
+add_executable(unit_tests 
+    tests/test_board.cpp
+    src/mvc/BoardModel.cpp
+)
+
+
+target_include_directories(unit_tests PRIVATE 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+
+target_link_libraries(unit_tests PRIVATE Catch2::Catch2WithMain)
+add_test(NAME BoardModelTest COMMAND unit_tests)
