@@ -16,6 +16,7 @@ Prosta gra kółko i krzyżyk (Tic-Tac-Toe) napisana w języku C++ z wykorzystan
 
 * C++23
 * SFML 2.6.2
+* Catch2
 * Conan
 
 ### 📦 Uruchomienie
@@ -70,6 +71,7 @@ A simple Tic-Tac-Toe game written in C++ using the SFML 2.6.2 library. The proje
 
 * C++23
 * SFML 2.6.2
+* Catch2
 * Conan
 
 ### 📦 Getting Started
