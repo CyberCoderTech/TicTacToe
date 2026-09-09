@@ -39,7 +39,9 @@ find_package(Catch2 REQUIRED)
 
 add_executable(unit_tests 
     tests/test_board.cpp
+    tests/test_ResourceManager.cpp
     src/mvc/BoardModel.cpp
+    src/ResourceManager.cpp
 )
 
 
@@ -49,5 +51,5 @@ target_include_directories(unit_tests PRIVATE
 )
 
 
-target_link_libraries(unit_tests PRIVATE Catch2::Catch2WithMain)
+target_link_libraries(unit_tests PRIVATE Catch2::Catch2WithMain sfml-graphics)
 add_test(NAME BoardModelTest COMMAND unit_tests)
