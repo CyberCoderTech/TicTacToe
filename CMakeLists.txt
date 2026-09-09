@@ -42,6 +42,8 @@ add_executable(unit_tests
     tests/test_ResourceManager.cpp
     src/mvc/BoardModel.cpp
     src/ResourceManager.cpp
+    src/state/StateManager.cpp
+    tests/test_StateManager.cpp
 )
 
 
