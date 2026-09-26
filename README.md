@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/banner.svg" alt="banner game">
+</p>
+
 # 🎮 TicTacToe (C++ / SFML 2.6.2)
 
 ## 🇵🇱 Opis
