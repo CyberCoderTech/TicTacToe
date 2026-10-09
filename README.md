@@ -113,3 +113,18 @@ cmake --build --preset <preset-name>
 This project was created for educational purposes — to practice working with SFML, event handling, and implementing simple game logic.
 
 ---
+
+## 📸 Galeria / Gallery
+
+<p align="center">
+  <img src="images/main_menu.png" alt="Menu Główne / Main Menu" width="31%" />
+  &nbsp;
+  <img src="images/mode_game.png" alt="Wybór Trybu Gry / Mode Selection" width="31%" />
+  &nbsp;
+  <img src="images/current_game.png" alt="Rozgrywka / Gameplay" width="31%" />
+</p>
+<p align="center">
+  <i>PL: Menu główne, Panel Trybu Gry oraz Właściwa Rozgrywka</i>
+  <br>
+  <i>EN: Main menu, Game Mode Selection, and Gameplay</i>
+</p>
